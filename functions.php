@@ -1,4 +1,5 @@
 // Add a custom function to apply the discount amount when the coupon code is "XXXXXXXX"
+
 function apply_custom_coupon_discount( $coupon ) {
     // Check if the coupon code is "XXXXXXXX"
     if ( $coupon->get_code() === 'XXXXXXXX' ) {
